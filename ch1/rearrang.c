@@ -39,7 +39,7 @@ int read_column_numbers(int columns[], int max)
     }
 
     /* Sort columns */
-    for (i = 0; i < num; i++)
+    for (i = 0; i < num - 1; i++)
     {
         min = columns[i];
         min_idx = i;
